@@ -9,4 +9,4 @@ eleventyNavigation:
 ---
 # Welcome
 
-Homepage text
+Homepage text.

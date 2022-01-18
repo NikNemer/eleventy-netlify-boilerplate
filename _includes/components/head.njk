@@ -3,8 +3,8 @@
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
-  <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
-  <meta property="og:image" content="{{ renderData.mimage }}">
+  <meta name="description" content="{{ renderData.summary or metaDescription or renderData.metaDescription or metadata.description }}">
+  <meta property="og:image" content="">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/inline.css" %}

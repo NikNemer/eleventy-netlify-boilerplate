@@ -87,9 +87,9 @@ pre {
 	margin: .5em 0;
 }
 
-.authdiv {font-size:0.8em; padding: 10px 0 0 0;}
+.authdiv, .authr {font-size:0.8em; padding: 10px 0 0 0;}
 .authdiv time:before, .authr time:before {content:'\2022';padding:0 10px}
-.authdiv, .authdiv a {color:#79828B !important;}
+.authdiv, .authdiv a, .authr, .authr a {color:#79828B !important;}
 
 /* Header Logo (style as h2) */
 header > em {

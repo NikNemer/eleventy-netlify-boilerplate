@@ -1,6 +1,7 @@
 :root {
 	--primary: #0053AD;
 	--secondary: white;
+	--tag: #F2F2F2;
 	--background: #F2F2F2;
 }
 
@@ -156,8 +157,8 @@ a[rel="tag"]:visited {
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--secondary);
-	background-color: var(--secondary);
+  border: 1px solid var(--tag);
+	background-color: var(--tag);
 	color: var(--primary);
   border-radius: .25em;
   text-decoration: none;

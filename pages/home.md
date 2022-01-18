@@ -1,12 +1,10 @@
 ---
 layout: layouts/home.njk
-title: Home
+title: Статьи
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 eleventyNavigation:
-  key: Home
+  key: Статьи
   order: 0
 ---
-# Welcome
-
-Homepage text!
+Все самое интересное и полезное в мире криптовалют

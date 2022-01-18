@@ -87,7 +87,7 @@ pre {
 	margin: .5em 0;
 }
 
-.authdiv {font-size:0.8em; padding: 10px 0;}
+.authdiv {font-size:0.8em; padding: 10px 0 0 0;}
 .authdiv, .authdiv a {color:#666 !important;}
 
 /* Header Logo (style as h2) */

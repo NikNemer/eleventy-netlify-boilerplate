@@ -9,8 +9,8 @@
   <meta property="twitter:title" content="{{ renderData.title or title or metadata.title }}">
   <meta property="og:description" content="{{ summary or metadata.description }}">
   <meta property="twitter:description" content="{{ summary or metadata.description }}">
-  <link rel="canonical" href="{{ url }}">
-  <meta property="og:url" content="{{ url }}">
+  <link rel="canonical" href="{{ page.url }}">
+  <meta property="og:url" content="{{ page.url }}">
   {% if mimage %}
   <meta property="og:type" content="article">
   <meta property="og:image" content="{{ metadata.url }}{{ mimage }}">

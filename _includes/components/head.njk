@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ summary or metadata.description }}">
+  <meta property="og:site_name" content="{{ metadata.title }}">
+  <meta property="og:title" content="{{ renderData.title or title or metadata.title }}">
+  <meta property="og:description" content="{{ summary or metadata.description }}">
   {% if mimage %}
   <meta property="og:image" content="{{ metadata.url }}{{ mimage }}">
   {% endif %}
